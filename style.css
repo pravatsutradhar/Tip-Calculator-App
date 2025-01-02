@@ -6,7 +6,7 @@ body {
   }
   
   .calculator-container {
-    max-width: 400px;
+    max-width: 450px;
     margin: 50px auto;
     padding: 20px;
     background-color: white;
@@ -15,6 +15,11 @@ body {
     text-align: center;
   }
   
+  .calculator-container ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
   h1 {
     font-size: 2rem;
     color: #333;
@@ -53,6 +58,18 @@ body {
   
   #calculateButton:hover {
     background-color: #0056b3;
+  }
+
+  #resetButton {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 48%;
   }
   
   .result-section p {
